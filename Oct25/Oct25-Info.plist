@@ -34,5 +34,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UILaunchImageFile~iphone</key>
+	<string>Default-landscape@2x.png</string>
+	<key>UILaunchImageFile</key>
+	<string>Default-landscape@2x.png</string>
 </dict>
 </plist>

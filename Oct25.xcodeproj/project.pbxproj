@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5C9D031638CADA0047E3B6 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9D021638CADA0047E3B6 /* View.m */; };
+		CE5C9D0D1638E7170047E3B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9D0B1638E7170047E3B6 /* Localizable.strings */; };
 		CEDF861A163790B300397E55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDF8619163790B300397E55 /* UIKit.framework */; };
 		CEDF861C163790B300397E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDF861B163790B300397E55 /* Foundation.framework */; };
 		CEDF861E163790B400397E55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDF861D163790B300397E55 /* CoreGraphics.framework */; };
@@ -16,9 +18,22 @@
 		CEDF862C163790B400397E55 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF862B163790B400397E55 /* Default.png */; };
 		CEDF862E163790B400397E55 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF862D163790B400397E55 /* Default@2x.png */; };
 		CEDF8630163790B400397E55 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF862F163790B400397E55 /* Default-568h@2x.png */; };
+		CEDF86421637951400397E55 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF863E1637951400397E55 /* Icon-72.png */; };
+		CEDF86431637951400397E55 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF863F1637951400397E55 /* Icon-72@2x.png */; };
+		CEDF86441637951400397E55 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF86401637951400397E55 /* Icon.png */; };
+		CEDF86451637951400397E55 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF86411637951400397E55 /* Icon@2x.png */; };
+		CEDF864816379D8100397E55 /* Default-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF864616379D8100397E55 /* Default-landscape@2x.png */; };
+		CEDF864916379D8100397E55 /* Default-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDF864716379D8100397E55 /* Default-portrait@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE5C9D011638CADA0047E3B6 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		CE5C9D021638CADA0047E3B6 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		CE5C9D0C1638E7170047E3B6 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE5C9D0E1638E7370047E3B6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE5C9D0F1638E77F0047E3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE5C9D171638EBC70047E3B6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE5C9D181638EBD30047E3B6 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDF8615163790B300397E55 /* Oct25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oct25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDF8619163790B300397E55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDF861B163790B300397E55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +47,12 @@
 		CEDF862B163790B400397E55 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CEDF862D163790B400397E55 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CEDF862F163790B400397E55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEDF863E1637951400397E55 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		CEDF863F1637951400397E55 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		CEDF86401637951400397E55 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CEDF86411637951400397E55 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		CEDF864616379D8100397E55 /* Default-landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-landscape@2x.png"; sourceTree = "<group>"; };
+		CEDF864716379D8100397E55 /* Default-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-portrait@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +101,8 @@
 			children = (
 				CEDF8628163790B400397E55 /* Oct25AppDelegate.h */,
 				CEDF8629163790B400397E55 /* Oct25AppDelegate.m */,
+				CE5C9D011638CADA0047E3B6 /* View.h */,
+				CE5C9D021638CADA0047E3B6 /* View.m */,
 				CEDF8620163790B400397E55 /* Supporting Files */,
 			);
 			path = Oct25;
@@ -88,6 +111,13 @@
 		CEDF8620163790B400397E55 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE5C9D0B1638E7170047E3B6 /* Localizable.strings */,
+				CEDF864616379D8100397E55 /* Default-landscape@2x.png */,
+				CEDF864716379D8100397E55 /* Default-portrait@2x.png */,
+				CEDF863E1637951400397E55 /* Icon-72.png */,
+				CEDF863F1637951400397E55 /* Icon-72@2x.png */,
+				CEDF86401637951400397E55 /* Icon.png */,
+				CEDF86411637951400397E55 /* Icon@2x.png */,
 				CEDF8621163790B400397E55 /* Oct25-Info.plist */,
 				CEDF8622163790B400397E55 /* InfoPlist.strings */,
 				CEDF8625163790B400397E55 /* main.m */,
@@ -135,6 +165,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fa,
+				es,
 			);
 			mainGroup = CEDF860A163790B300397E55;
 			productRefGroup = CEDF8616163790B300397E55 /* Products */;
@@ -155,6 +187,13 @@
 				CEDF862C163790B400397E55 /* Default.png in Resources */,
 				CEDF862E163790B400397E55 /* Default@2x.png in Resources */,
 				CEDF8630163790B400397E55 /* Default-568h@2x.png in Resources */,
+				CEDF86421637951400397E55 /* Icon-72.png in Resources */,
+				CEDF86431637951400397E55 /* Icon-72@2x.png in Resources */,
+				CEDF86441637951400397E55 /* Icon.png in Resources */,
+				CEDF86451637951400397E55 /* Icon@2x.png in Resources */,
+				CEDF864816379D8100397E55 /* Default-landscape@2x.png in Resources */,
+				CEDF864916379D8100397E55 /* Default-portrait@2x.png in Resources */,
+				CE5C9D0D1638E7170047E3B6 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,16 +206,29 @@
 			files = (
 				CEDF8626163790B400397E55 /* main.m in Sources */,
 				CEDF862A163790B400397E55 /* Oct25AppDelegate.m in Sources */,
+				CE5C9D031638CADA0047E3B6 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CE5C9D0B1638E7170047E3B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5C9D0C1638E7170047E3B6 /* fa */,
+				CE5C9D0E1638E7370047E3B6 /* es */,
+				CE5C9D0F1638E77F0047E3B6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		CEDF8622163790B400397E55 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CEDF8623163790B400397E55 /* en */,
+				CE5C9D171638EBC70047E3B6 /* es */,
+				CE5C9D181638EBD30047E3B6 /* fa */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -275,6 +327,7 @@
 				CEDF8635163790B400397E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
